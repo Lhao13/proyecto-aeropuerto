@@ -1,0 +1,26 @@
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+
+# Local reference documents and temporary Office lock files
+*.docx
+*.pdf
+.~lock.*
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Flutter / Dart
+**/.dart_tool/
+**/build/
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+
+# IDE and operating-system files
+.idea/
+.DS_Store
+Thumbs.db
